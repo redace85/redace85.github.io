@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>容器化 on 一小站</title>
+    <link>https://redace85.gitee.io/categories/%E5%AE%B9%E5%99%A8%E5%8C%96/</link>
+    <description>Recent content in 容器化 on 一小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 19 Jul 2021 20:54:52 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/categories/%E5%AE%B9%E5%99%A8%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker容器化btr&#43;jup&#43;talib&#43;btplotting量化研究环境</title>
+      <link>https://redace85.gitee.io/post/docker-btr-jup/</link>
+      <pubDate>Mon, 19 Jul 2021 20:54:52 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/docker-btr-jup/</guid>
+      <description>
+        
+          &lt;p&gt;📝使用docker技术快速搭建一个量化研究方案。&lt;br&gt;
+docker的方案可以保证，运行环境，软件包版本，依赖软件包的一致性。&lt;/p&gt;
+&lt;p&gt;p1 docker镜像构造。本身视频过程主要是展示构建的过程，以及随便聊聊软件依赖地狱问题&lt;br&gt;
+不感兴趣的也可以不用看这个视频，直接操作，方法如下：&lt;br&gt;
+在代码容器backtrader_bilibili_study/docker路径下运行命令：docker build -t btrjup:py39&lt;br&gt;
+命令运行完通过docker images查看镜像&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=291756922&amp;bvid=BV18f4y1j7Rt&amp;cid=372402075&amp;page=1&#34; width=&#34;90%&#34; height=&#34;35%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;p2 讲解之前构造的镜像的使用方法&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=674321184&amp;bvid=BV1BU4y1n7We&amp;cid=372903332&amp;page=1&#34; width=&#34;90%&#34; height=&#34;35% scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;💥创建容器的命令： docker run -d -v 主机的路径:/notes -p 8888:8888 --rm btrjup:py39&lt;br&gt;
+backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页报告的包
+官方github地址 &lt;a href=&#34;https://github.com/verybadsoldier/backtrader_plotting&#34;&gt;https://github.com/verybadsoldier/backtrader_plotting&lt;/a&gt;&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

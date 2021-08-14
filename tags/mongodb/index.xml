@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mongodb on 一小站</title>
+    <link>https://redace85.gitee.io/tags/mongodb/</link>
+    <description>Recent content in mongodb on 一小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
+    <lastBuildDate>Sun, 21 Jun 2020 09:01:47 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[9] backtrader无剪辑敲码实现KDJ策略；附Mongodb用feed</title>
+      <link>https://redace85.gitee.io/post/btr-article-9/</link>
+      <pubDate>Sun, 21 Jun 2020 09:01:47 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/btr-article-9/</guid>
+      <description>
+        
+          &lt;p&gt;📝 kdj 指标策略的实现&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=286115064&amp;bvid=BV1wf4y117Vx&amp;cid=204099734&amp;page=1&#34; width=&#34;100%&#34; height=&#34;36%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;开篇立了个Flag，也许有些网友会比较期待下期的视频吧～&lt;br&gt;
+有时感觉现场敲代码有点水～但不水怎么出视频呢？而且一直也没有网友说敲代码有多水&lt;br&gt;
+不过事实就是现场敲代码视频就会变长～～～～&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

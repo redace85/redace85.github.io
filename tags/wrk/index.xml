@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wrk on 一小站</title>
+    <link>https://redace85.gitee.io/tags/wrk/</link>
+    <description>Recent content in wrk on 一小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 02 Jul 2020 15:14:50 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/tags/wrk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wrk - 一个http压测工具</title>
+      <link>https://redace85.gitee.io/post/wrk/</link>
+      <pubDate>Thu, 02 Jul 2020 15:14:50 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/wrk/</guid>
+      <description>
+        
+          &lt;p&gt;wrk是一个基于C语言编写的压测工具，支持使用lua脚本配置http请求。&lt;/p&gt;
+&lt;p&gt;🇨🇳 墙内镜像https://gitee.com/mirrors/wrk&lt;/p&gt;
+&lt;p&gt;💥 帮助菜单&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;wrk: invalid option -- h
+&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;Usage: wrk &amp;lt;options&amp;gt; &amp;lt;url&amp;gt;
+&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;  Options:
+&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;    -c, --connections &amp;lt;N&amp;gt;  Connections to keep open
+&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;    -d, --duration    &amp;lt;T&amp;gt;  Duration of test
+&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;    -t, --threads     &amp;lt;N&amp;gt;  Number of threads to use
+&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;    -s, --script      &amp;lt;S&amp;gt;  Load Lua script file
+&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;    -H, --header      &amp;lt;H&amp;gt;  Add header to request
+&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;        --latency          Print latency statistics
+&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;        --timeout     &amp;lt;T&amp;gt;  Socket/request timeout
+&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;    -v, --version          Print version details
+&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;  Numeric arguments may include a SI unit (1k, 1M, 1G)
+&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;  Time arguments may include a time unit (2s, 2m, 2h)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;lua 脚本参考代码仓库scripts目录。&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

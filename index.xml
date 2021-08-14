@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>一小站</title>
+    <link>https://redace85.gitee.io/</link>
+    <description>Recent content on 一小站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 19 Jul 2021 20:54:52 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker容器化btr&#43;jup&#43;talib&#43;btplotting量化研究环境</title>
+      <link>https://redace85.gitee.io/post/docker-btr-jup/</link>
+      <pubDate>Mon, 19 Jul 2021 20:54:52 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/docker-btr-jup/</guid>
+      <description>
+        
+          &lt;p&gt;📝使用docker技术快速搭建一个量化研究方案。&lt;br&gt;
+docker的方案可以保证，运行环境，软件包版本，依赖软件包的一致性。&lt;/p&gt;
+&lt;p&gt;p1 docker镜像构造。本身视频过程主要是展示构建的过程，以及随便聊聊软件依赖地狱问题&lt;br&gt;
+不感兴趣的也可以不用看这个视频，直接操作，方法如下：&lt;br&gt;
+在代码容器backtrader_bilibili_study/docker路径下运行命令：docker build -t btrjup:py39&lt;br&gt;
+命令运行完通过docker images查看镜像&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=291756922&amp;bvid=BV18f4y1j7Rt&amp;cid=372402075&amp;page=1&#34; width=&#34;90%&#34; height=&#34;35%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;p2 讲解之前构造的镜像的使用方法&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=674321184&amp;bvid=BV1BU4y1n7We&amp;cid=372903332&amp;page=1&#34; width=&#34;90%&#34; height=&#34;35% scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;💥创建容器的命令： docker run -d -v 主机的路径:/notes -p 8888:8888 --rm btrjup:py39&lt;br&gt;
+backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页报告的包
+官方github地址 &lt;a href=&#34;https://github.com/verybadsoldier/backtrader_plotting&#34;&gt;https://github.com/verybadsoldier/backtrader_plotting&lt;/a&gt;&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>wrk - 一个http压测工具</title>
+      <link>https://redace85.gitee.io/post/wrk/</link>
+      <pubDate>Thu, 02 Jul 2020 15:14:50 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/wrk/</guid>
+      <description>
+        
+          &lt;p&gt;wrk是一个基于C语言编写的压测工具，支持使用lua脚本配置http请求。&lt;/p&gt;
+&lt;p&gt;🇨🇳 墙内镜像https://gitee.com/mirrors/wrk&lt;/p&gt;
+&lt;p&gt;💥 帮助菜单&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt; 1&lt;/span&gt;wrk: invalid option -- h
+&lt;span class=&#34;ln&#34;&gt; 2&lt;/span&gt;Usage: wrk &amp;lt;options&amp;gt; &amp;lt;url&amp;gt;
+&lt;span class=&#34;ln&#34;&gt; 3&lt;/span&gt;  Options:
+&lt;span class=&#34;ln&#34;&gt; 4&lt;/span&gt;    -c, --connections &amp;lt;N&amp;gt;  Connections to keep open
+&lt;span class=&#34;ln&#34;&gt; 5&lt;/span&gt;    -d, --duration    &amp;lt;T&amp;gt;  Duration of test
+&lt;span class=&#34;ln&#34;&gt; 6&lt;/span&gt;    -t, --threads     &amp;lt;N&amp;gt;  Number of threads to use
+&lt;span class=&#34;ln&#34;&gt; 7&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt; 8&lt;/span&gt;    -s, --script      &amp;lt;S&amp;gt;  Load Lua script file
+&lt;span class=&#34;ln&#34;&gt; 9&lt;/span&gt;    -H, --header      &amp;lt;H&amp;gt;  Add header to request
+&lt;span class=&#34;ln&#34;&gt;10&lt;/span&gt;        --latency          Print latency statistics
+&lt;span class=&#34;ln&#34;&gt;11&lt;/span&gt;        --timeout     &amp;lt;T&amp;gt;  Socket/request timeout
+&lt;span class=&#34;ln&#34;&gt;12&lt;/span&gt;    -v, --version          Print version details
+&lt;span class=&#34;ln&#34;&gt;13&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;14&lt;/span&gt;  Numeric arguments may include a SI unit (1k, 1M, 1G)
+&lt;span class=&#34;ln&#34;&gt;15&lt;/span&gt;  Time arguments may include a time unit (2s, 2m, 2h)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;lua 脚本参考代码仓库scripts目录。&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>pyautogui python3桌面程序自动化编程</title>
+      <link>https://redace85.gitee.io/post/pyautogui/</link>
+      <pubDate>Tue, 30 Jun 2020 17:54:50 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/pyautogui/</guid>
+      <description>
+        
+          &lt;p&gt;简单聊一下pyautogui编程的思路，和一般流程&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=583742019&amp;bvid=BV1rz4y1X7YF&amp;cid=207429776&amp;page=1&#34; width=&#34;100%&#34; height=&#34;36%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;🇨🇳 做个短一些视频，就python3编程的pyautogui包，简单讲解一下～～&lt;/p&gt;
+&lt;p&gt;💥 桌面程序自动化还是挺有用的，需要开发者发挥想象力，能实现不少东西的～&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>[10] backtrader实盘相关讲解；极简方案示例演示</title>
+      <link>https://redace85.gitee.io/post/btr-article-10/</link>
+      <pubDate>Wed, 24 Jun 2020 00:54:11 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/btr-article-10/</guid>
+      <description>
+        
+          &lt;p&gt;主要是讲解下backtrader实盘原理&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=583594985&amp;bvid=BV12z4y1Q7cn&amp;cid=205055068&amp;page=1&#34; width=&#34;100%&#34; height=&#34;36%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;backtrader 实盘接入的讲解，以及一个极为简化方案的展示&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>[9] backtrader无剪辑敲码实现KDJ策略；附Mongodb用feed</title>
+      <link>https://redace85.gitee.io/post/btr-article-9/</link>
+      <pubDate>Sun, 21 Jun 2020 09:01:47 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/btr-article-9/</guid>
+      <description>
+        
+          &lt;p&gt;📝 kdj 指标策略的实现&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=286115064&amp;bvid=BV1wf4y117Vx&amp;cid=204099734&amp;page=1&#34; width=&#34;100%&#34; height=&#34;36%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;开篇立了个Flag，也许有些网友会比较期待下期的视频吧～&lt;br&gt;
+有时感觉现场敲代码有点水～但不水怎么出视频呢？而且一直也没有网友说敲代码有多水&lt;br&gt;
+不过事实就是现场敲代码视频就会变长～～～～&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>[8] backtrader自定义指标编写；Tushare数据用Feed</title>
+      <link>https://redace85.gitee.io/post/btr-article-8/</link>
+      <pubDate>Sat, 13 Jun 2020 09:32:40 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/btr-article-8/</guid>
+      <description>
+        
+          &lt;p&gt;自定义指标的编写方法，在研究实现各种思路时非常有用。Tushare的数据获取，免费的接口好像是只有个股的基本数据&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=926087921&amp;bvid=BV18T4y1J7kP&amp;cid=201443810&amp;page=1&#34; width=&#34;100%&#34; height=&#34;36%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>[7] backtrader多周期策略讲解实现</title>
+      <link>https://redace85.gitee.io/post/btr-article-7/</link>
+      <pubDate>Sun, 24 May 2020 13:40:15 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/btr-article-7/</guid>
+      <description>
+        
+          &lt;p&gt;🎁 看到个比较感兴趣的问题，研究了下解决方案，然后给大家分享下，嗯，以上。&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=710816376&amp;bvid=BV17Q4y1P7tc&amp;cid=194532116&amp;page=1&#34; width=&#34;100%&#34; height=&#34;36%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;📝 代码：https://gitee.com/redace85/backtrader_bilibili_study&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>[6] backtrader自定义feed使用mysql数据源</title>
+      <link>https://redace85.gitee.io/post/btr-article-6/</link>
+      <pubDate>Wed, 20 May 2020 08:49:20 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/btr-article-6/</guid>
+      <description>
+        
+          &lt;p&gt;👻 自定义feed的编写方法简介&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=795685811&amp;bvid=BV19C4y1H7hP&amp;cid=193043694&amp;page=1&#34; width=&#34;100%&#34; height=&#34;36%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;📝 本视频主要是介绍backtrader自定义feed的编写。&lt;br&gt;
+例子中使用的MysqlData需要自行准备mysql实例，并按数据库与表结构创建好，准备相应的数据。才能成功运行&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>[5] 从0到1,backtrader实现macd金叉策略，无剪辑敲代码</title>
+      <link>https://redace85.gitee.io/post/btr-article-5/</link>
+      <pubDate>Sat, 16 May 2020 10:18:57 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/btr-article-5/</guid>
+      <description>
+        
+          &lt;p&gt;📝 动手敲代码，实现一个基础的macd金死差的策略，以及过滤器的基本概念和实现&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=840662487&amp;bvid=BV1654y1X7ch&amp;cid=191529767&amp;page=1&#34; width=&#34;100%&#34; height=&#34;36%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;本视频录的比较随意。&lt;br&gt;
+古语有云，万事开头难。我想通过这个视频展示下量化策略研究怎么开头的问题。&lt;br&gt;
+简介自古没人看～～？？？&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>[4] TA-lib简介，安装；backtrader集成调用</title>
+      <link>https://redace85.gitee.io/post/btr-article-4/</link>
+      <pubDate>Wed, 13 May 2020 03:24:48 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/btr-article-4/</guid>
+      <description>
+        
+          &lt;p&gt;TA-lib简介，安装；在backtrader调用，形态识别函数&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=625637864&amp;bvid=BV1nt4y117Qa&amp;cid=190336745&amp;page=1&#34; width=&#34;100%&#34; height=&#34;36%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;🇨🇳 talib中文文档地址 &lt;a href=&#34;https://github.com/HuaRongSAO/talib-document&#34;&gt;https://github.com/HuaRongSAO/talib-document&lt;/a&gt;&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>[3] backtrader单均线策略示例</title>
+      <link>https://redace85.gitee.io/post/btr-article-3/</link>
+      <pubDate>Wed, 06 May 2020 10:04:17 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/btr-article-3/</guid>
+      <description>
+        
+          &lt;p&gt;backtrader 单均线策略实现&lt;/p&gt;
+&lt;p&gt;p1 jupyter方案展示，单均线策略讲解，参数调优编写&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=413011818&amp;bvid=BV1aV411d7px&amp;cid=187610438&amp;page=1&#34; width=&#34;90%&#34; height=&#34;35%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;p2 分析器与参数调优逻辑讲解&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=668120216&amp;bvid=BV1Ba4y1i7tk&amp;cid=187535708&amp;page=1&#34; width=&#34;90%&#34; height=&#34;35% scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>[2] backtrader 回测逻辑，策略类修改展示例</title>
+      <link>https://redace85.gitee.io/post/btr-article-2/</link>
+      <pubDate>Thu, 30 Apr 2020 19:25:14 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/btr-article-2/</guid>
+      <description>
+        
+          &lt;p&gt;backtrader 回测逻辑，策略类讲解&amp;amp;展示&lt;/p&gt;
+&lt;p&gt;p1 回测逻辑讲解。&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=582962575&amp;bvid=BV1E64y1M7GP&amp;cid=185213577&amp;page=1&#34; width=&#34;90%&#34; height=&#34;35%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;p2 运行结果讲解。&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=925456755&amp;bvid=BV19T4y1g74n&amp;cid=185218720&amp;page=1&#34; width=&#34;90%&#34; height=&#34;35% scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>[1] backtrader框架架构讲解例</title>
+      <link>https://redace85.gitee.io/post/btr-article-1/</link>
+      <pubDate>Thu, 30 Apr 2020 13:05:03 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/btr-article-1/</guid>
+      <description>
+        
+          &lt;p&gt;backtrader框架架构讲解&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=200465851&amp;bvid=BV1Gz411z7qZ&amp;cid=185061798&amp;page=1&#34; width=&#34;100%&#34; height=&#34;36%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;🇨🇳 代码 &lt;a href=&#34;https://gitee.com/redace85/backtrader_bilibili_study&#34;&gt;https://gitee.com/redace85/backtrader_bilibili_study&lt;/a&gt;&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>[0] 量化研究框架backtrader简介，搭建，调试quickstart示例</title>
+      <link>https://redace85.gitee.io/post/btr-article-0/</link>
+      <pubDate>Wed, 29 Apr 2020 12:40:24 +0000</pubDate>
+      
+      <guid>https://redace85.gitee.io/post/btr-article-0/</guid>
+      <description>
+        
+          &lt;p&gt;量化研究框架backtrader简介，搭建，调试quickstart示例&lt;/p&gt;
+&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=882885020&amp;bvid=BV1hK4y1k7Af&amp;cid=184590770&amp;page=1&#34; width=&#34;100%&#34; height=&#34;36%&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;p&gt;🇨🇳 代码 &lt;a href=&#34;https://gitee.com/redace85/backtrader_bilibili_study&#34;&gt;https://gitee.com/redace85/backtrader_bilibili_study&lt;/a&gt;&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
