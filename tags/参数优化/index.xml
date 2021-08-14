@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>参数优化 on 一小站</title>
-    <link>https://redace85.gitee.io/tags/%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96/</link>
+    <link>https://redace85.github.io/tags/%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96/</link>
     <description>Recent content in 参数优化 on 一小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 06 May 2020 10:04:17 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/tags/%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 May 2020 10:04:17 +0000</lastBuildDate><atom:link href="https://redace85.github.io/tags/%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[3] backtrader单均线策略示例</title>
-      <link>https://redace85.gitee.io/post/btr-article-3/</link>
+      <link>https://redace85.github.io/post/btr-article-3/</link>
       <pubDate>Wed, 06 May 2020 10:04:17 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-3/</guid>
+      <guid>https://redace85.github.io/post/btr-article-3/</guid>
       <description>
         
           &lt;p&gt;backtrader 单均线策略实现&lt;/p&gt;

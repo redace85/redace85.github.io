@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pyautogui on 一小站</title>
-    <link>https://redace85.gitee.io/tags/pyautogui/</link>
+    <link>https://redace85.github.io/tags/pyautogui/</link>
     <description>Recent content in pyautogui on 一小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
-    <lastBuildDate>Tue, 30 Jun 2020 17:54:50 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/tags/pyautogui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jun 2020 17:54:50 +0000</lastBuildDate><atom:link href="https://redace85.github.io/tags/pyautogui/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pyautogui python3桌面程序自动化编程</title>
-      <link>https://redace85.gitee.io/post/pyautogui/</link>
+      <link>https://redace85.github.io/post/pyautogui/</link>
       <pubDate>Tue, 30 Jun 2020 17:54:50 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/pyautogui/</guid>
+      <guid>https://redace85.github.io/post/pyautogui/</guid>
       <description>
         
           &lt;p&gt;简单聊一下pyautogui编程的思路，和一般流程&lt;/p&gt;

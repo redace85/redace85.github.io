@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tushare on 一小站</title>
-    <link>https://redace85.gitee.io/tags/tushare/</link>
+    <link>https://redace85.github.io/tags/tushare/</link>
     <description>Recent content in tushare on 一小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 13 Jun 2020 09:32:40 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/tags/tushare/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Jun 2020 09:32:40 +0000</lastBuildDate><atom:link href="https://redace85.github.io/tags/tushare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[8] backtrader自定义指标编写；Tushare数据用Feed</title>
-      <link>https://redace85.gitee.io/post/btr-article-8/</link>
+      <link>https://redace85.github.io/post/btr-article-8/</link>
       <pubDate>Sat, 13 Jun 2020 09:32:40 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-8/</guid>
+      <guid>https://redace85.github.io/post/btr-article-8/</guid>
       <description>
         
           &lt;p&gt;自定义指标的编写方法，在研究实现各种思路时非常有用。Tushare的数据获取，免费的接口好像是只有个股的基本数据&lt;/p&gt;

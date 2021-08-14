@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>talib on 一小站</title>
-    <link>https://redace85.gitee.io/tags/talib/</link>
+    <link>https://redace85.github.io/tags/talib/</link>
     <description>Recent content in talib on 一小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 19 Jul 2021 20:54:52 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/tags/talib/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jul 2021 20:54:52 +0000</lastBuildDate><atom:link href="https://redace85.github.io/tags/talib/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>docker容器化btr&#43;jup&#43;talib&#43;btplotting量化研究环境</title>
-      <link>https://redace85.gitee.io/post/docker-btr-jup/</link>
+      <link>https://redace85.github.io/post/docker-btr-jup/</link>
       <pubDate>Mon, 19 Jul 2021 20:54:52 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/docker-btr-jup/</guid>
+      <guid>https://redace85.github.io/post/docker-btr-jup/</guid>
       <description>
         
           &lt;p&gt;📝使用docker技术快速搭建一个量化研究方案。&lt;br&gt;
@@ -33,10 +33,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>[4] TA-lib简介，安装；backtrader集成调用</title>
-      <link>https://redace85.gitee.io/post/btr-article-4/</link>
+      <link>https://redace85.github.io/post/btr-article-4/</link>
       <pubDate>Wed, 13 May 2020 03:24:48 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-4/</guid>
+      <guid>https://redace85.github.io/post/btr-article-4/</guid>
       <description>
         
           &lt;p&gt;TA-lib简介，安装；在backtrader调用，形态识别函数&lt;/p&gt;

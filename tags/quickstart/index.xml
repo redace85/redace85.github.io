@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>quickstart on 一小站</title>
-    <link>https://redace85.gitee.io/tags/quickstart/</link>
+    <link>https://redace85.github.io/tags/quickstart/</link>
     <description>Recent content in quickstart on 一小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 29 Apr 2020 12:40:24 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/tags/quickstart/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Apr 2020 12:40:24 +0000</lastBuildDate><atom:link href="https://redace85.github.io/tags/quickstart/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[0] 量化研究框架backtrader简介，搭建，调试quickstart示例</title>
-      <link>https://redace85.gitee.io/post/btr-article-0/</link>
+      <link>https://redace85.github.io/post/btr-article-0/</link>
       <pubDate>Wed, 29 Apr 2020 12:40:24 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-0/</guid>
+      <guid>https://redace85.github.io/post/btr-article-0/</guid>
       <description>
         
           &lt;p&gt;量化研究框架backtrader简介，搭建，调试quickstart示例&lt;/p&gt;

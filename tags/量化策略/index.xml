@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>量化策略 on 一小站</title>
-    <link>https://redace85.gitee.io/tags/%E9%87%8F%E5%8C%96%E7%AD%96%E7%95%A5/</link>
+    <link>https://redace85.github.io/tags/%E9%87%8F%E5%8C%96%E7%AD%96%E7%95%A5/</link>
     <description>Recent content in 量化策略 on 一小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 21 Jun 2020 09:01:47 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/tags/%E9%87%8F%E5%8C%96%E7%AD%96%E7%95%A5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jun 2020 09:01:47 +0000</lastBuildDate><atom:link href="https://redace85.github.io/tags/%E9%87%8F%E5%8C%96%E7%AD%96%E7%95%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[9] backtrader无剪辑敲码实现KDJ策略；附Mongodb用feed</title>
-      <link>https://redace85.gitee.io/post/btr-article-9/</link>
+      <link>https://redace85.github.io/post/btr-article-9/</link>
       <pubDate>Sun, 21 Jun 2020 09:01:47 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-9/</guid>
+      <guid>https://redace85.github.io/post/btr-article-9/</guid>
       <description>
         
           &lt;p&gt;📝 kdj 指标策略的实现&lt;/p&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>[5] 从0到1,backtrader实现macd金叉策略，无剪辑敲代码</title>
-      <link>https://redace85.gitee.io/post/btr-article-5/</link>
+      <link>https://redace85.github.io/post/btr-article-5/</link>
       <pubDate>Sat, 16 May 2020 10:18:57 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-5/</guid>
+      <guid>https://redace85.github.io/post/btr-article-5/</guid>
       <description>
         
           &lt;p&gt;📝 动手敲代码，实现一个基础的macd金死差的策略，以及过滤器的基本概念和实现&lt;/p&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>[3] backtrader单均线策略示例</title>
-      <link>https://redace85.gitee.io/post/btr-article-3/</link>
+      <link>https://redace85.github.io/post/btr-article-3/</link>
       <pubDate>Wed, 06 May 2020 10:04:17 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-3/</guid>
+      <guid>https://redace85.github.io/post/btr-article-3/</guid>
       <description>
         
           &lt;p&gt;backtrader 单均线策略实现&lt;/p&gt;

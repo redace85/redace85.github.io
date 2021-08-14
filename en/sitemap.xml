@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://redace85.gitee.io/en/</loc>
+    <loc>https://redace85.github.io/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://redace85.gitee.io/"
+                href="https://redace85.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://redace85.gitee.io/en/"
+                href="https://redace85.github.io/en/"
                 />
   </url><url>
-    <loc>https://redace85.gitee.io/en/categories/</loc>
+    <loc>https://redace85.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://redace85.gitee.io/categories/"
+                href="https://redace85.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://redace85.gitee.io/en/categories/"
+                href="https://redace85.github.io/en/categories/"
                 />
   </url><url>
-    <loc>https://redace85.gitee.io/en/series/</loc>
+    <loc>https://redace85.github.io/en/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://redace85.gitee.io/series/"
+                href="https://redace85.github.io/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://redace85.gitee.io/en/series/"
+                href="https://redace85.github.io/en/series/"
                 />
   </url><url>
-    <loc>https://redace85.gitee.io/en/tags/</loc>
+    <loc>https://redace85.github.io/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://redace85.gitee.io/tags/"
+                href="https://redace85.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://redace85.gitee.io/en/tags/"
+                href="https://redace85.github.io/en/tags/"
                 />
   </url>
 </urlset>

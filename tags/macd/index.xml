@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>macd on 一小站</title>
-    <link>https://redace85.gitee.io/tags/macd/</link>
+    <link>https://redace85.github.io/tags/macd/</link>
     <description>Recent content in macd on 一小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 16 May 2020 10:18:57 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/tags/macd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 May 2020 10:18:57 +0000</lastBuildDate><atom:link href="https://redace85.github.io/tags/macd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[5] 从0到1,backtrader实现macd金叉策略，无剪辑敲代码</title>
-      <link>https://redace85.gitee.io/post/btr-article-5/</link>
+      <link>https://redace85.github.io/post/btr-article-5/</link>
       <pubDate>Sat, 16 May 2020 10:18:57 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-5/</guid>
+      <guid>https://redace85.github.io/post/btr-article-5/</guid>
       <description>
         
           &lt;p&gt;📝 动手敲代码，实现一个基础的macd金死差的策略，以及过滤器的基本概念和实现&lt;/p&gt;

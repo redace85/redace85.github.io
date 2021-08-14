@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 一小站</title>
-    <link>https://redace85.gitee.io/post/</link>
+    <link>https://redace85.github.io/post/</link>
     <description>Recent content in Posts on 一小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 19 Jul 2021 20:54:52 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jul 2021 20:54:52 +0000</lastBuildDate><atom:link href="https://redace85.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>docker容器化btr&#43;jup&#43;talib&#43;btplotting量化研究环境</title>
-      <link>https://redace85.gitee.io/post/docker-btr-jup/</link>
+      <link>https://redace85.github.io/post/docker-btr-jup/</link>
       <pubDate>Mon, 19 Jul 2021 20:54:52 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/docker-btr-jup/</guid>
+      <guid>https://redace85.github.io/post/docker-btr-jup/</guid>
       <description>
         
           &lt;p&gt;📝使用docker技术快速搭建一个量化研究方案。&lt;br&gt;
@@ -33,10 +33,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>wrk - 一个http压测工具</title>
-      <link>https://redace85.gitee.io/post/wrk/</link>
+      <link>https://redace85.github.io/post/wrk/</link>
       <pubDate>Thu, 02 Jul 2020 15:14:50 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/wrk/</guid>
+      <guid>https://redace85.github.io/post/wrk/</guid>
       <description>
         
           &lt;p&gt;wrk是一个基于C语言编写的压测工具，支持使用lua脚本配置http请求。&lt;/p&gt;
@@ -64,10 +64,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>pyautogui python3桌面程序自动化编程</title>
-      <link>https://redace85.gitee.io/post/pyautogui/</link>
+      <link>https://redace85.github.io/post/pyautogui/</link>
       <pubDate>Tue, 30 Jun 2020 17:54:50 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/pyautogui/</guid>
+      <guid>https://redace85.github.io/post/pyautogui/</guid>
       <description>
         
           &lt;p&gt;简单聊一下pyautogui编程的思路，和一般流程&lt;/p&gt;
@@ -80,10 +80,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>[10] backtrader实盘相关讲解；极简方案示例演示</title>
-      <link>https://redace85.gitee.io/post/btr-article-10/</link>
+      <link>https://redace85.github.io/post/btr-article-10/</link>
       <pubDate>Wed, 24 Jun 2020 00:54:11 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-10/</guid>
+      <guid>https://redace85.github.io/post/btr-article-10/</guid>
       <description>
         
           &lt;p&gt;主要是讲解下backtrader实盘原理&lt;/p&gt;
@@ -95,10 +95,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>[9] backtrader无剪辑敲码实现KDJ策略；附Mongodb用feed</title>
-      <link>https://redace85.gitee.io/post/btr-article-9/</link>
+      <link>https://redace85.github.io/post/btr-article-9/</link>
       <pubDate>Sun, 21 Jun 2020 09:01:47 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-9/</guid>
+      <guid>https://redace85.github.io/post/btr-article-9/</guid>
       <description>
         
           &lt;p&gt;📝 kdj 指标策略的实现&lt;/p&gt;
@@ -112,10 +112,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>[8] backtrader自定义指标编写；Tushare数据用Feed</title>
-      <link>https://redace85.gitee.io/post/btr-article-8/</link>
+      <link>https://redace85.github.io/post/btr-article-8/</link>
       <pubDate>Sat, 13 Jun 2020 09:32:40 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-8/</guid>
+      <guid>https://redace85.github.io/post/btr-article-8/</guid>
       <description>
         
           &lt;p&gt;自定义指标的编写方法，在研究实现各种思路时非常有用。Tushare的数据获取，免费的接口好像是只有个股的基本数据&lt;/p&gt;
@@ -126,10 +126,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>[7] backtrader多周期策略讲解实现</title>
-      <link>https://redace85.gitee.io/post/btr-article-7/</link>
+      <link>https://redace85.github.io/post/btr-article-7/</link>
       <pubDate>Sun, 24 May 2020 13:40:15 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-7/</guid>
+      <guid>https://redace85.github.io/post/btr-article-7/</guid>
       <description>
         
           &lt;p&gt;🎁 看到个比较感兴趣的问题，研究了下解决方案，然后给大家分享下，嗯，以上。&lt;/p&gt;
@@ -141,10 +141,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>[6] backtrader自定义feed使用mysql数据源</title>
-      <link>https://redace85.gitee.io/post/btr-article-6/</link>
+      <link>https://redace85.github.io/post/btr-article-6/</link>
       <pubDate>Wed, 20 May 2020 08:49:20 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-6/</guid>
+      <guid>https://redace85.github.io/post/btr-article-6/</guid>
       <description>
         
           &lt;p&gt;👻 自定义feed的编写方法简介&lt;/p&gt;
@@ -157,10 +157,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>[5] 从0到1,backtrader实现macd金叉策略，无剪辑敲代码</title>
-      <link>https://redace85.gitee.io/post/btr-article-5/</link>
+      <link>https://redace85.github.io/post/btr-article-5/</link>
       <pubDate>Sat, 16 May 2020 10:18:57 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-5/</guid>
+      <guid>https://redace85.github.io/post/btr-article-5/</guid>
       <description>
         
           &lt;p&gt;📝 动手敲代码，实现一个基础的macd金死差的策略，以及过滤器的基本概念和实现&lt;/p&gt;
@@ -174,10 +174,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>[4] TA-lib简介，安装；backtrader集成调用</title>
-      <link>https://redace85.gitee.io/post/btr-article-4/</link>
+      <link>https://redace85.github.io/post/btr-article-4/</link>
       <pubDate>Wed, 13 May 2020 03:24:48 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-4/</guid>
+      <guid>https://redace85.github.io/post/btr-article-4/</guid>
       <description>
         
           &lt;p&gt;TA-lib简介，安装；在backtrader调用，形态识别函数&lt;/p&gt;
@@ -189,10 +189,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>[3] backtrader单均线策略示例</title>
-      <link>https://redace85.gitee.io/post/btr-article-3/</link>
+      <link>https://redace85.github.io/post/btr-article-3/</link>
       <pubDate>Wed, 06 May 2020 10:04:17 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-3/</guid>
+      <guid>https://redace85.github.io/post/btr-article-3/</guid>
       <description>
         
           &lt;p&gt;backtrader 单均线策略实现&lt;/p&gt;
@@ -206,10 +206,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>[2] backtrader 回测逻辑，策略类修改展示例</title>
-      <link>https://redace85.gitee.io/post/btr-article-2/</link>
+      <link>https://redace85.github.io/post/btr-article-2/</link>
       <pubDate>Thu, 30 Apr 2020 19:25:14 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-2/</guid>
+      <guid>https://redace85.github.io/post/btr-article-2/</guid>
       <description>
         
           &lt;p&gt;backtrader 回测逻辑，策略类讲解&amp;amp;展示&lt;/p&gt;
@@ -223,10 +223,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>[1] backtrader框架架构讲解例</title>
-      <link>https://redace85.gitee.io/post/btr-article-1/</link>
+      <link>https://redace85.github.io/post/btr-article-1/</link>
       <pubDate>Thu, 30 Apr 2020 13:05:03 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-1/</guid>
+      <guid>https://redace85.github.io/post/btr-article-1/</guid>
       <description>
         
           &lt;p&gt;backtrader框架架构讲解&lt;/p&gt;
@@ -238,10 +238,10 @@ backtrader_plotting 是一个可以讲btr回测结果生成交互式html网页�
     
     <item>
       <title>[0] 量化研究框架backtrader简介，搭建，调试quickstart示例</title>
-      <link>https://redace85.gitee.io/post/btr-article-0/</link>
+      <link>https://redace85.github.io/post/btr-article-0/</link>
       <pubDate>Wed, 29 Apr 2020 12:40:24 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/btr-article-0/</guid>
+      <guid>https://redace85.github.io/post/btr-article-0/</guid>
       <description>
         
           &lt;p&gt;量化研究框架backtrader简介，搭建，调试quickstart示例&lt;/p&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>docker on 一小站</title>
-    <link>https://redace85.gitee.io/tags/docker/</link>
+    <link>https://redace85.github.io/tags/docker/</link>
     <description>Recent content in docker on 一小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 19 Jul 2021 20:54:52 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jul 2021 20:54:52 +0000</lastBuildDate><atom:link href="https://redace85.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>docker容器化btr&#43;jup&#43;talib&#43;btplotting量化研究环境</title>
-      <link>https://redace85.gitee.io/post/docker-btr-jup/</link>
+      <link>https://redace85.github.io/post/docker-btr-jup/</link>
       <pubDate>Mon, 19 Jul 2021 20:54:52 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/docker-btr-jup/</guid>
+      <guid>https://redace85.github.io/post/docker-btr-jup/</guid>
       <description>
         
           &lt;p&gt;📝使用docker技术快速搭建一个量化研究方案。&lt;br&gt;

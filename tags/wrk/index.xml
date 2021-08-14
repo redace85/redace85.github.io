@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wrk on 一小站</title>
-    <link>https://redace85.gitee.io/tags/wrk/</link>
+    <link>https://redace85.github.io/tags/wrk/</link>
     <description>Recent content in wrk on 一小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 02 Jul 2020 15:14:50 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/tags/wrk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Jul 2020 15:14:50 +0000</lastBuildDate><atom:link href="https://redace85.github.io/tags/wrk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>wrk - 一个http压测工具</title>
-      <link>https://redace85.gitee.io/post/wrk/</link>
+      <link>https://redace85.github.io/post/wrk/</link>
       <pubDate>Thu, 02 Jul 2020 15:14:50 +0000</pubDate>
       
-      <guid>https://redace85.gitee.io/post/wrk/</guid>
+      <guid>https://redace85.github.io/post/wrk/</guid>
       <description>
         
           &lt;p&gt;wrk是一个基于C语言编写的压测工具，支持使用lua脚本配置http请求。&lt;/p&gt;

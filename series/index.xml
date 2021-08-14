@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on 一小站</title>
-    <link>https://redace85.gitee.io/series/</link>
+    <link>https://redace85.github.io/series/</link>
     <description>Recent content in Series on 一小站</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyleft © {year}, 老船长不用桨; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 24 Jun 2020 00:54:11 +0000</lastBuildDate><atom:link href="https://redace85.gitee.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jun 2020 00:54:11 +0000</lastBuildDate><atom:link href="https://redace85.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
